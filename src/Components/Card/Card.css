@@ -1,0 +1,30 @@
+.CardContainer {
+    display: flex;
+    width: max-content;
+    border-radius: 20px 60px 20px 20px;
+}
+
+.CardIconContainer {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    height: min-content;
+    display: flex;
+}
+
+.CardTextContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.CardTextOne {
+    font-size: 15px;
+    width: 90px;
+}
+
+.CardTextTwo {
+    font-size: 22px;
+    font-weight: 700;
+}

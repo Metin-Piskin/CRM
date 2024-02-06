@@ -1,0 +1,76 @@
+.HeaderContainer {
+    background-color: #101928;
+    height: 100vh;
+    width: 11%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.HeaderLogo{
+    width: 120px;
+    height: 90px;
+    align-self: center;
+    margin-top: 40px;
+}
+
+.HeaderPageList {
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+
+}
+
+.HeaderPageList:hover {
+    background-color: #1A2639;
+}
+
+
+.HeaderPageListPress {
+    list-style-type: none;
+    margin-top: 25px;
+    background-color: #FABA5F;
+    width: 98%;
+    margin-left: 10px;
+    z-index: 999;
+    border-radius: 10px;
+    position: relative;
+}
+
+.HeaderPageListLink {
+    list-style-type: none;
+    text-decoration-line: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    padding: 10px 10px;
+
+}
+
+.HeaderUserContainer {
+    background-color: #1A2639;
+}
+
+.HeaderAvatar {
+    width: 45px;
+    height: 45px;
+    border-radius: 23px;
+    position: relative;
+    top: -25px;
+    left: 15px;
+}
+
+.HeaderUserNameText {
+    font-size: 15px;
+    color: #fff;
+    position: relative;
+    bottom: 15px;
+    left: 15px;
+}

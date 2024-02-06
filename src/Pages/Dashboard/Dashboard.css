@@ -1,0 +1,238 @@
+.DashboardContainer {
+    background-color: #FBFBFE;
+    flex: 1;
+}
+
+.DashboardHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+}
+
+.DashboardHeaderInputContainer {
+    display: flex;
+    align-items: center;
+}
+
+.DashboardHeaderInnerInputContainer {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.DashboardHeaderInput {
+    border-width: 0;
+}
+
+.DashboardHeaderButtonContainer {
+    background-color: #101928;
+    border-width: 0;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    border-radius: 55px;
+    cursor: pointer;
+}
+
+.DashboardCardContainer {
+    display: flex;
+    gap: 25px;
+    margin: 30px 30px;
+}
+
+.TaskAllContainer {
+    background-color: #fff;
+    margin: 30px 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-radius: 20px;
+    border: 1px #EDEDF5 solid;
+
+}
+
+.TaskContainerTitle {
+    margin-left: 35px;
+    margin-bottom: 10px;
+
+}
+
+.TaskContainer {
+    border: 1px #FAFAFC solid;
+    border-radius: 15px;
+    height: 250px;
+    overflow: auto;
+    padding-right: 5px;
+}
+
+.TaskContainer::-webkit-scrollbar {
+    width: 4px;
+}
+
+.TaskContainer::-webkit-scrollbar-thumb {
+    background-color: #FABA5F;
+    border-radius: 4px;
+}
+
+.TaskContainer::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.TaskTitleSectionsContainer {
+    background-color: #FEF1DF;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+.AttendanceContainer {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-radius: 20px;
+    margin-right: 25px;
+}
+
+.AttendanceButtonContainer {
+    display: flex;
+}
+
+.AttendanceOneButton {
+    flex: 1;
+    border-width: 0;
+    color: #101928;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 0px;
+    border-top-left-radius: 20px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.AttendanceTwoButton {
+    flex: 1;
+    border-width: 0;
+    color: #868F9E;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 15px 0px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.AttendanceUserContainer {
+    background-color: #fff;
+}
+
+.AttendanceUserCardContainer {
+    display: flex;
+    background-color: #EAF9FF;
+    align-items: center;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.AttendanceUserCardImgContainer {
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: -15px;
+}
+
+.AttendanceUserCardImg {
+    width: 75px;
+    height: 75px;
+    border-radius: 55px;
+}
+
+.AttendanceUserCardTextContainer {
+    margin-left: 10px;
+}
+
+.AttendanceUserCardOneText {
+    font-weight: 600;
+    color: #101928;
+}
+
+.AttendanceUserCardTwoText {
+    color: #101928;
+}
+
+.AttendanceUserCardThreeText {
+    font-size: 12px;
+    color: #868F9E;
+}
+
+.AttendanceShiftTextContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px;
+}
+
+.AttendanceShiftOneText {
+    color: #868F9E;
+}
+
+.AttendanceShiftTwoText {
+    color: #101928;
+    font-weight: 600;
+}
+
+.AttendanceClockButtonsContainer {
+    display: flex;
+    margin: 10px 15px;
+    gap: 5px;
+}
+
+.AttendanceClockInButton {
+    flex: 1;
+    border-width: 0;
+    color: #fff;
+    background-color: #FABA5F;
+    padding: 8px 0px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.AttendanceClockOutButton {
+    flex: 1;
+    border-width: 0;
+    color: #FABA5F;
+    background-color: #101928;
+    padding: 8px 0px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.AttendanceEarningsContainer {}
+
+.AttendanceEarningsTitleContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 40px;
+    align-items: center;
+}
+
+.AttendanceEarningsTitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #101928;
+}
