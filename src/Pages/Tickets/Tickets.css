@@ -2,3 +2,20 @@
     background-color: #FBFBFE;
     flex: 1;
 }
+
+.TicketsHeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+}
+
+.TicketsHeaderBellButtonContainer {
+    background-color: #101928;
+    border-width: 0;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+    border-radius: 55px;
+    cursor: pointer;
+}

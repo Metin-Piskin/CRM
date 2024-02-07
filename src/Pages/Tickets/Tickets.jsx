@@ -1,13 +1,22 @@
-import React from 'react'
+import React from "react";
 
-import './Tickets.css'
+import { FaRegBell } from "react-icons/fa";
+
+import "./Tickets.css";
 
 const Tickets = () => {
   return (
-    <div className='TicketsContainer'>
-      Tickets
-    </div>
-  )
-}
+    <div className="TicketsContainer">
+      <div className="TicketsHeaderContainer">
+        <h2>Tickets</h2>
+        <button className="TicketsHeaderBellButtonContainer">
+          <FaRegBell color="#fff" size={20} />
+        </button>
+      </div>
 
-export default Tickets
+
+    </div>
+  );
+};
+
+export default Tickets;

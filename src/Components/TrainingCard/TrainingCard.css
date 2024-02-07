@@ -1,0 +1,30 @@
+.TrainingCardContainer {
+    display: flex;
+    width: max-content;
+    border-radius: 20px 70px 20px 20px;
+}
+
+.TrainingCardIconContainer {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    height: min-content;
+    display: flex;
+}
+
+.TrainingCardTextContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.TrainingCardTextOne {
+    font-size: 15px;
+    width: 125px;
+}
+
+.TrainingCardTextTwo {
+    font-size: 22px;
+    font-weight: 700;
+}

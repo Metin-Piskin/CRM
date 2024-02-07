@@ -1,0 +1,31 @@
+.TrainingMyCourseCardContainer {
+    display: flex;
+    margin: 0px 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 35px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.TrainingMyCourseCardContainer:hover{
+    background-color: #FAFAFC;
+}
+
+.TrainingMyCourseCardButtonsContainer {
+    display: flex;
+    margin-left: 85px;
+    margin-right: 15px;
+}
+
+.TrainingMyCourseCardTrashButton {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 3px 5px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgb(255, 84, 84);
+}
