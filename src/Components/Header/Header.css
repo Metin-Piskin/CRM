@@ -5,10 +5,10 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+
 }
 
-.HeaderLogo{
+.HeaderLogo {
     width: 120px;
     height: 90px;
     align-self: center;
@@ -22,7 +22,7 @@
     margin-right: 10px;
     border-radius: 10px;
     cursor: pointer;
-    
+
 
 }
 
@@ -67,10 +67,23 @@
     left: 15px;
 }
 
+.HeaderUserInnerContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: -40px;
+}
+
 .HeaderUserNameText {
     font-size: 15px;
     color: #fff;
-    position: relative;
-    bottom: 15px;
-    left: 15px;
+}
+
+.HeaderUserCloseButton {
+    background-color: #293850;
+    border: 0;
+    padding: 7px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
 }

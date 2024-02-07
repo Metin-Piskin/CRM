@@ -1,10 +1,12 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
+
 import { RxDashboard } from "react-icons/rx";
 import { PiProjectorScreen } from "react-icons/pi";
 import { HiOutlineAcademicCap } from "react-icons/hi";
 import { IoCalendarOutline } from "react-icons/io5";
 import { LuTicket } from "react-icons/lu";
+import { GiExitDoor } from "react-icons/gi";
 
 import "./Header.css";
 import Avatar from "../../Assets/Avatar.png";
@@ -16,7 +18,6 @@ const Header = () => {
   return (
     <div className="HeaderContainer">
       <img alt="" src={Logo} className="HeaderLogo" />
-
       <div>
         <li
           className={
@@ -85,7 +86,12 @@ const Header = () => {
       </div>
       <div className="HeaderUserContainer">
         <img alt="" src={Avatar} className="HeaderAvatar" />
-        <p className="HeaderUserNameText">Metin Pişkin</p>
+        <div className="HeaderUserInnerContainer">
+          <p className="HeaderUserNameText">Metin Pişkin</p>
+          <button className="HeaderUserCloseButton">
+            <GiExitDoor color="#FFFFFF" size={20} />
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -1,0 +1,30 @@
+.DashboardCardContainer {
+    display: flex;
+    width: max-content;
+    border-radius: 20px 60px 20px 20px;
+}
+
+.DashboardCardIconContainer {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    height: min-content;
+    display: flex;
+}
+
+.DashboardCardTextContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.DashboardCardTextOne {
+    font-size: 15px;
+    width: 90px;
+}
+
+.DashboardCardTextTwo {
+    font-size: 22px;
+    font-weight: 700;
+}

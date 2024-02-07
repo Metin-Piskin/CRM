@@ -1,0 +1,30 @@
+.ProjectManagerCardContainer {
+    display: flex;
+    width: max-content;
+    border-radius: 20px 80px 20px 20px;
+}
+
+.ProjectManagerCardIconContainer {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    height: min-content;
+    display: flex;
+}
+
+.ProjectManagerCardTextContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ProjectManagerCardTextOne {
+    font-size: 15px;
+    width: 175px;
+}
+
+.ProjectManagerCardTextTwo {
+    font-size: 22px;
+    font-weight: 700;
+}

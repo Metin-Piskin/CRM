@@ -17,8 +17,8 @@ import "./Dashboard.css";
 
 import Avatar from "../../Assets/Avatar.png";
 
-import Card from "../../Components/Card";
-import Task from "../../Components/Task";
+import DashboardCard from "../../Components/DashboardCard";
+import DashboardTask from "../../Components/DashboardTask";
 
 const data = [
   { name: "A", uv: 400, pv: 2400, amt: 2400 },
@@ -46,26 +46,26 @@ const Dashboard = () => {
       </div>
       <div style={{ display: "flex" }}>
         <div>
-          <div className="DashboardCardContainer">
-            <Card
+          <div className="CardContainer">
+            <DashboardCard
               BackgroundColor={"#FFD8E5"}
               TextOne={"My Awards"}
               TextTwo={"26"}
               Icon={<FaRegStar size={26} color="#FF3679" />}
             />
-            <Card
+            <DashboardCard
               BackgroundColor={"#CEEFFF"}
               TextOne={"Manageement Leave"}
               TextTwo={"31"}
               Icon={<GiEntryDoor size={26} color="#21B7FF" />}
             />
-            <Card
+            <DashboardCard
               BackgroundColor={"#D5F5D5"}
               TextOne={"Total Requests"}
               TextTwo={"24"}
               Icon={<RiUserAddLine size={26} color="#22BF22" />}
             />
-            <Card
+            <DashboardCard
               BackgroundColor={"#EEEBFF"}
               TextOne={"New Announcement"}
               TextTwo={"31"}
@@ -76,84 +76,84 @@ const Dashboard = () => {
             <h2 className="TaskContainerTitle">My Task</h2>
             <div className="TaskContainer">
               <div className="TaskTitleSectionsContainer">
-                <p>Project Name</p>
-                <p>End Date</p>
-                <p>Status</p>
-                <p>Progress</p>
-                <p>Action</p>
+                <p style={{ fontWeight: "bold" }}>Project Name</p>
+                <p style={{ fontWeight: "bold" }}>End Date</p>
+                <p style={{ fontWeight: "bold" }}>Status</p>
+                <p style={{ fontWeight: "bold" }}>Progress</p>
+                <p style={{ fontWeight: "bold" }}>Action</p>
               </div>
-              <Task
+              <DashboardTask
                 ProjectName={"Markdesing"}
                 EndDate={"06 July, 2021"}
                 Status={"Running"}
                 Progress={0.65}
               />
-              <Task
+              <DashboardTask
                 ProjectName={"Oriano Land"}
                 EndDate={"14 Sep, 2021"}
                 Status={"Pending"}
                 Progress={0.05}
                 id={1}
               />
-              <Task
+              <DashboardTask
                 ProjectName={"QuickLeave"}
                 EndDate={"28 July, 2021"}
                 Status={"Running"}
                 Progress={0.3}
               />
-              <Task
+              <DashboardTask
                 ProjectName={"Travel Znk"}
                 EndDate={"08 Jun, 2021"}
                 Status={"Completed"}
                 Progress={1}
                 id={1}
               />
-              <Task
+              <DashboardTask
                 ProjectName={"Markdesing"}
                 EndDate={"06 July, 2021"}
                 Status={"Running"}
                 Progress={0.65}
               />
-              <Task
+              <DashboardTask
                 ProjectName={"Oriano Land"}
                 EndDate={"14 Sep, 2021"}
                 Status={"Pending"}
                 Progress={0.05}
                 id={1}
               />
-              <Task
+              <DashboardTask
                 ProjectName={"QuickLeave"}
                 EndDate={"28 July, 2021"}
                 Status={"Running"}
                 Progress={0.3}
               />
-              <Task
+              <DashboardTask
                 ProjectName={"Travel Znk"}
                 EndDate={"08 Jun, 2021"}
                 Status={"Completed"}
                 Progress={1}
                 id={1}
               />
-              <Task
+              <DashboardTask
                 ProjectName={"Markdesing"}
                 EndDate={"06 July, 2021"}
                 Status={"Running"}
                 Progress={0.65}
               />
-              <Task
+              <DashboardTask
                 ProjectName={"Oriano Land"}
                 EndDate={"14 Sep, 2021"}
                 Status={"Pending"}
                 Progress={0.05}
                 id={1}
               />
-              <Task
+              <DashboardTask
                 ProjectName={"QuickLeave"}
                 EndDate={"28 July, 2021"}
                 Status={"Running"}
                 Progress={0.3}
               />
-              <Task
+              <DashboardTask
                 ProjectName={"Travel Znk"}
                 EndDate={"08 Jun, 2021"}
                 Status={"Completed"}
@@ -201,7 +201,7 @@ const Dashboard = () => {
             </div>
             <LineChart
               width={300}
-              height={230}
+              height={200}
               data={data}
               margin={{ top: 5, right: 20, bottom: 5, left: 0 }}
             >

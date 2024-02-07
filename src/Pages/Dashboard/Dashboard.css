@@ -38,7 +38,7 @@
     cursor: pointer;
 }
 
-.DashboardCardContainer {
+.CardContainer {
     display: flex;
     gap: 25px;
     margin: 30px 30px;
@@ -65,7 +65,7 @@
 .TaskContainer {
     border: 1px #FAFAFC solid;
     border-radius: 15px;
-    height: 250px;
+    height: 295px;
     overflow: auto;
     padding-right: 5px;
 }
@@ -98,6 +98,9 @@
     flex: 1;
     border-radius: 20px;
     margin-right: 25px;
+    border: 1px #EDEDF5 solid;
+    margin-bottom: 35px;
+    margin-top: 5px;
 }
 
 .AttendanceButtonContainer {
