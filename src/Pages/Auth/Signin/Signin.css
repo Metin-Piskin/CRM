@@ -1,0 +1,29 @@
+.SigninContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #101928;
+    align-items: center;
+}
+
+.SigninLogoImg {
+    width: 50%;
+    height: 35%;
+    object-fit: contain;
+}
+
+.SigninInnerContainer {
+    background-color: #FBFBFE;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.SigninInput{
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px #EDEDF5 solid;
+}

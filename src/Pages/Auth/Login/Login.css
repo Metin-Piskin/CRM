@@ -1,0 +1,75 @@
+.LoginContainer {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #101928;
+    align-items: center;
+    justify-content: center;
+}
+
+.LoginLogoImg {
+    width: 50%;
+    height: 35%;
+    object-fit: contain;
+}
+
+.LoginInnerContainer {
+    background-color: #FBFBFE;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.LoginMailContainer {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px #EDEDF5 solid;
+}
+
+.LoginMailInput {
+    border: 0;
+}
+
+.LoginPasswordContainer {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px #EDEDF5 solid;
+}
+
+.LoginPasswordInput {
+    border: 0;
+}
+
+.ForgotPasswordButton {
+    border: 0;
+    background-color: #FBFBFE;
+    text-align: end;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+.LoginButton {
+    text-decoration-line: none;
+    background-color: #FABA5F;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 8px;
+}
+
+.SigninButton {
+    text-decoration-line: none;
+    background-color: #101928;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0px;
+    border-radius: 8px;
+}

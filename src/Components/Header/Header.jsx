@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 
 import { RxDashboard } from "react-icons/rx";
 import { PiProjectorScreen } from "react-icons/pi";
@@ -12,9 +12,17 @@ import "./Header.css";
 import Avatar from "../../Assets/Avatar.png";
 import Logo from "../../Assets/Logo.png";
 
+import { useSelector, useDispatch } from "react-redux";
+import { setauth } from "../../Redux/Reducer";
+
 const Header = () => {
+  const navigate = useNavigate();
   const location = useLocation();
   const currentPath = location.pathname;
+
+  const auth = useSelector((state) => state.auth.auth);
+  const dispatch = useDispatch();
+  
   return (
     <div className="HeaderContainer">
       <img alt="" src={Logo} className="HeaderLogo" />
@@ -88,9 +96,13 @@ const Header = () => {
         <img alt="" src={Avatar} className="HeaderAvatar" />
         <div className="HeaderUserInnerContainer">
           <p className="HeaderUserNameText">Metin Pişkin</p>
-          <button className="HeaderUserCloseButton">
+          <Link
+            className="HeaderUserCloseButton"
+            onClick={() => dispatch(setauth(!auth))}
+            to={"/Login"}
+          >
             <GiExitDoor color="#FFFFFF" size={20} />
-          </button>
+          </Link>
         </div>
       </div>
     </div>
