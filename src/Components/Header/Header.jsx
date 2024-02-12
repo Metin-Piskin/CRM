@@ -3,10 +3,10 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 
 import { RxDashboard } from "react-icons/rx";
 import { PiProjectorScreen } from "react-icons/pi";
-import { HiOutlineAcademicCap } from "react-icons/hi";
-import { IoCalendarOutline } from "react-icons/io5";
+import { IoCalendarOutline, IoSchoolOutline } from "react-icons/io5";
 import { LuTicket } from "react-icons/lu";
 import { GiExitDoor } from "react-icons/gi";
+import { TbUsersGroup } from "react-icons/tb";
 
 import "./Header.css";
 import Avatar from "../../Assets/Avatar.png";
@@ -22,7 +22,7 @@ const Header = () => {
 
   const auth = useSelector((state) => state.auth.auth);
   const dispatch = useDispatch();
-  
+
   return (
     <div className="HeaderContainer">
       <img alt="" src={Logo} className="HeaderLogo" />
@@ -59,7 +59,7 @@ const Header = () => {
           }
         >
           <Link className="HeaderPageListLink" to="/Training">
-            <HiOutlineAcademicCap
+            <IoSchoolOutline
               color={currentPath === "/Training" ? "#fff" : "#FABA5F"}
             />
             Training
@@ -77,6 +77,20 @@ const Header = () => {
               color={currentPath === "/Organization" ? "#fff" : "#FABA5F"}
             />
             Organization
+          </Link>
+        </li>
+        <li
+          className={
+            currentPath === "/Customers"
+              ? "HeaderPageListPress"
+              : "HeaderPageList"
+          }
+        >
+          <Link className="HeaderPageListLink" to="/Customers">
+            <TbUsersGroup
+              color={currentPath === "/Customers" ? "#fff" : "#FABA5F"}
+            />
+            Customers
           </Link>
         </li>
         <li

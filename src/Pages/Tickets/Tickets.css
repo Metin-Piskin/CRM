@@ -1,6 +1,8 @@
-.TicketsContainer{
+.TicketsContainer {
     background-color: #FBFBFE;
     flex: 1;
+    display: flex;
+    flex-direction: column;
 }
 
 .TicketsHeaderContainer {
@@ -17,5 +19,51 @@
     display: flex;
     padding: 10px;
     border-radius: 55px;
+    cursor: pointer;
+}
+
+.TicketsContentContainer {
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.TicketsContentInnerContainer {
+    background-color: #FEF1DF;
+    padding: 45px 45px 20px 45px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 25px;
+    gap: 15px;
+}
+
+.TicketsSubjectInput {
+    border-radius: 7px;
+    border: 1px #EDEDF5 solid;
+    padding-left: 8px;
+    height: 25px;
+}
+
+.TicketsDescriptionTextarea {
+    width: 750px;
+    height: 350px;
+    border-radius: 10px;
+    border: 1px #EDEDF5 solid;
+    padding-left: 8px;
+    resize: none;
+}
+
+.TicketsSubmitButton {
+    border: 0;
+    background-color: #101928;
+    width: max-content;
+    align-self: center;
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
     cursor: pointer;
 }

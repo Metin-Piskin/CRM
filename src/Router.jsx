@@ -15,6 +15,7 @@ import ProjectManager from "./Pages/ProjectManager";
 import Training from "./Pages/Training";
 import Organization from "./Pages/Organization";
 import Tickets from "./Pages/Tickets";
+import Customers from "./Pages/Customers";
 
 import Login from "./Pages/Auth/Login";
 import Signin from "./Pages/Auth/Signin";
@@ -36,6 +37,7 @@ const RouterPage = () => {
               <Route path="/ProjectManager" element={<ProjectManager />} />
               <Route path="/Training" element={<Training />} />
               <Route path="/Organization" element={<Organization />} />
+              <Route path="/Customers" element={<Customers />} />
               <Route path="/Tickets" element={<Tickets />} />
             </Routes>
           </div>

@@ -1,0 +1,30 @@
+.CustomersCardContainer {
+    display: flex;
+    width: max-content;
+    border-radius: 20px 80px 20px 20px;
+}
+
+.CustomersCardIconContainer {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    height: min-content;
+    display: flex;
+}
+
+.CustomersCardTextContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.CustomersCardTextOne {
+    font-size: 15px;
+    width: 175px;
+}
+
+.CustomersCardTextTwo {
+    font-size: 22px;
+    font-weight: 700;
+}

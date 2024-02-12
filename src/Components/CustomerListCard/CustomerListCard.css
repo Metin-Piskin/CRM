@@ -1,0 +1,42 @@
+.CustomerListCardContainer {
+    display: flex;
+    margin: 0px 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CustomerListCardButtonsContainer {
+    display: flex;
+    gap: 5px;
+}
+
+.CustomerListCardEyeButton {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 3px 5px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgb(250, 186, 95);
+}
+
+.CustomerListCardPencilButton {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 3px 5px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgb(186, 191, 200);
+}
+
+.CustomerListCardTrashButton {
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 3px 5px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgb(255, 84, 84);
+}
